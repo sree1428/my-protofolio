@@ -6,12 +6,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.sreenooka</groupId>
-    <artifactId>sreenooka-portfolio</artifactId>
+    <artifactId>my-protfolio</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
-    <name>Sree Nooka - Professional Portfolio</name>
-    <description>Portfolio website for Sree Nooka - SAP SD Consultant & Full-Stack Developer</description>
+    <name>Sree Nooka Portfolio</name>
+    <description>Portfolio website for Sree Nooka - SAP SD Consultant &amp; Full-Stack Developer</description>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
@@ -45,7 +45,7 @@
     </dependencies>
 
     <build>
-        <finalName>sreenooka</finalName>
+        <finalName>my-protfolio</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -64,7 +64,7 @@
                 <configuration>
                     <url>http://localhost:8080/manager/text</url>
                     <server>TomcatServer</server>
-                    <path>/sreenooka</path>
+                    <path>/my-protfolio</path>
                     <username>deployer</username>
                     <password>deploy123</password>
                 </configuration>
