@@ -1,10 +1,17 @@
-src/
-└── main/
-    └── webapp/
-        ├── WEB-INF/
-        │   └── web.xml
-        ├── css/
-        │   └── style.css
-        ├── js/
-        │   └── script.js
-        └── index.jsp
+sreenooka-portfolio/
+│
+├── pom.xml                                    ← Maven build file
+│
+└── src/
+    └── main/
+        └── webapp/
+            ├── WEB-INF/
+            │   └── web.xml                    ← Deployment descriptor
+            │
+            ├── index.jsp                      ← Main HTML page
+            │
+            ├── css/
+            │   └── style.css                 ← All CSS styles
+            │
+            └── js/
+                └── script.js                 ← JavaScript functionality
