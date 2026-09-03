@@ -1,0 +1,410 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sree Nooka | SAP SD Consultant & Full-Stack Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#home">Sree Nooka</a>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">Open to Opportunities</div>
+                <h1>Hi, I'm <span class="highlight">Sree Nooka</span></h1>
+                <h2>SAP SD Consultant & Full-Stack Developer</h2>
+                <p>Administrative Support Specialist | Global Business Management Postgraduate | Tech Enthusiast</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn-primary">Let's Connect</a>
+                    <a href="#experience" class="btn-secondary">View Experience</a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://www.linkedin.com/in/sreenooka/" target="_blank" class="social-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                            <rect x="2" y="9" width="4" height="12"/>
+                            <circle cx="4" cy="4" r="2"/>
+                        </svg>
+                        LinkedIn
+                    </a>
+                    <a href="mailto:sreenooka1428@gmail.com" class="social-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                        Email
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-circle">
+                    <div class="profile-initials">SN</div>
+                </div>
+                <div class="floating-badge badge-1">SAP SD</div>
+                <div class="floating-badge badge-2">Java</div>
+                <div class="floating-badge badge-3">SQL</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">About Me</span>
+                <h2>Professional Summary</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a <strong>Global Business Management postgraduate</strong> (Aug 2025) with hands-on experience across SAP SD, recruitment coordination, administration, and full-stack/Java development. I enjoy working at the intersection of business operations and technology.</p>
+                    <p>Previously, I worked as an <strong>SAP SD Associate/Consultant at Cognizant</strong>, where I supported order processing, billing, delivery coordination, and customer data management while collaborating with sales, logistics, finance, and technical teams.</p>
+                    <p>I also gained experience as an <strong>Interviewing Specialist at Mindfield</strong>, coordinating interviews for major Canadian retailers, managing candidate communication, and maintaining accurate hiring records in a fast-paced HR environment.</p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <span class="highlight-number">4+</span>
+                            <span class="highlight-label">Years Experience</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-number">5+</span>
+                            <span class="highlight-label">Projects Completed</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-number">3</span>
+                            <span class="highlight-label">Certifications</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Career Journey</span>
+                <h2>Work Experience</h2>
+                <div class="divider"></div>
+            </div>
+            
+            <div class="timeline">
+                <!-- Mindfield -->
+                <div class="timeline-item">
+                    <div class="timeline-badge">
+                        <span class="badge-date">2024-2025</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Interviewing Specialist</h3>
+                            <h4>Mindfield</h4>
+                            <span class="location">Toronto, ON</span>
+                        </div>
+                        <ul>
+                            <li>Scheduled and coordinated interviews for high-volume sales roles across major Canadian retailers (Canadian Tire, Mark's)</li>
+                            <li>Maintained accurate candidate tracking logs and updated recruitment records</li>
+                            <li>Managed professional email communication with candidates and hiring managers</li>
+                            <li>Organized virtual meetings and supported hiring managers with documentation</li>
+                            <li>Ensured timely follow-ups, adherence to hiring timelines, and achievement of recruitment metrics</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Cognizant -->
+                <div class="timeline-item">
+                    <div class="timeline-badge">
+                        <span class="badge-date">2022-2023</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Program Analyst - SAP SD Consultant</h3>
+                            <h4>Cognizant</h4>
+                            <span class="location">Hyderabad, India</span>
+                        </div>
+                        <ul>
+                            <li>Supported SAP SD processes: order management, billing, deliveries, and customer master data</li>
+                            <li>Collaborated with sales, logistics, finance, and technical teams for timely issue resolution</li>
+                            <li>Prepared reports, maintained documentation, and ensured data accuracy in SAP</li>
+                            <li>Tracked tickets, assisted end users, and participated in testing and troubleshooting</li>
+                            <li>Improved workflow efficiency and supported project and operational activities</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Capgemini -->
+                <div class="timeline-item">
+                    <div class="timeline-badge">
+                        <span class="badge-date">2022</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Full-Stack Development Intern</h3>
+                            <h4>Capgemini</h4>
+                            <span class="location">India</span>
+                        </div>
+                        <ul>
+                            <li>Developed two fully functional web applications as part of a full-stack development team</li>
+                            <li>Gained practical experience with both front-end and back-end development</li>
+                            <li>Collaborated with teammates on design, coding, testing, and feature enhancements</li>
+                            <li>Assisted with debugging, troubleshooting, and improving application performance</li>
+                            <li>Followed clean coding practices, documentation standards, and version control workflows</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Wipro -->
+                <div class="timeline-item">
+                    <div class="timeline-badge">
+                        <span class="badge-date">2021</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>J2EE Trainee</h3>
+                            <h4>Wipro - TalentNext Program</h4>
+                            <span class="location">India</span>
+                        </div>
+                        <ul>
+                            <li>Completed hands-on training in J2EE and enterprise-level Java development</li>
+                            <li>Solved real-world coding problems and logic-driven assessments in a hackathon-style environment</li>
+                            <li>Applied Java concepts to build structured, efficient, and scalable solutions</li>
+                            <li>Strengthened debugging, analytical thinking, and clean coding practices</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- SmartKnower -->
+                <div class="timeline-item">
+                    <div class="timeline-badge">
+                        <span class="badge-date">2021</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>R&D Intern - IoT Project</h3>
+                            <h4>SmartKnower</h4>
+                            <span class="location">Bangalore, India</span>
+                        </div>
+                        <ul>
+                            <li>Developed a Li-Fi based IoT mini-project that converted solar energy into sound signals for data transmission</li>
+                            <li>Combined renewable energy and advanced communication technologies</li>
+                            <li>Project awarded first place in a college-level innovation competition</li>
+                            <li>Handled system design, component integration, and functional testing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Academic Background</span>
+                <h2>Education</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">🎓</div>
+                    <h3>Global Business Management</h3>
+                    <h4>Sault College of Applied Arts and Technology</h4>
+                    <span class="edu-date">Jan 2024 - Aug 2025</span>
+                    <p>Post Graduate Diploma</p>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon">💻</div>
+                    <h3>Computer Science Engineering</h3>
+                    <h4>Sri Venkateswara College of Engineering</h4>
+                    <span class="edu-date">2018 - 2022</span>
+                    <p>Bachelor of Technology (B.Tech)</p>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon">📐</div>
+                    <h3>Intermediate - MPC</h3>
+                    <h4>Sri Chaitanya College of Education</h4>
+                    <span class="edu-date">Jun 2016 - Apr 2018</span>
+                    <p>Mathematics, Physics, Chemistry</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Expertise</span>
+                <h2>Technical Skills</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>J2EE & Java</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">JSP</span>
+                        <span class="skill-tag">Servlets</span>
+                        <span class="skill-tag">JDBC</span>
+                        <span class="skill-tag">Spring Boot</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>SAP SD</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Order Management</span>
+                        <span class="skill-tag">Billing</span>
+                        <span class="skill-tag">Delivery Coordination</span>
+                        <span class="skill-tag">Customer Master Data</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Web Technologies</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Angular</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Database & Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Maven</span>
+                        <span class="skill-tag">Tomcat</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Professional Development</span>
+                <h2>Certifications</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <div class="cert-icon">📊</div>
+                    <h3>Hire Better, Hire Faster</h3>
+                    <p>Social Media and Digital Platforms</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">🎯</div>
+                    <h3>Performance-Based Hiring</h3>
+                    <p>Recruitment Best Practices</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">📱</div>
+                    <h3>Digital Marketing Tools</h3>
+                    <p>Create a Marketing Campaign from Start to Finish</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">👥</div>
+                    <h3>HR Foundations</h3>
+                    <p>Core Human Resources</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get in Touch</span>
+                <h2>Let's Connect</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:sreenooka1428@gmail.com">sreenooka1428@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🔗</div>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/sreenooka/" target="_blank">linkedin.com/in/sreenooka</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h4>Location</h4>
+                            <span>North York, Ontario, Canada</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <input type="text" placeholder="Subject">
+                        <textarea placeholder="Your Message" rows="4" required></textarea>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Sree Nooka</h3>
+                    <p>SAP SD Consultant & Full-Stack Developer</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/sreenooka/" target="_blank">LinkedIn</a>
+                    <a href="mailto:sreenooka1428@gmail.com">Email</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Sree Nooka. Built with ❤️ | Deployed via Jenkins & Tomcat</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
