@@ -1,0 +1,10 @@
+src/
+└── main/
+    └── webapp/
+        ├── WEB-INF/
+        │   └── web.xml
+        ├── css/
+        │   └── style.css
+        ├── js/
+        │   └── script.js
+        └── index.jsp
